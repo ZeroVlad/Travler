@@ -3,6 +3,10 @@ const menuIcon = document.querySelector('.menu-icon');
 const menu = document.querySelector('.drop-menu');
 const menuLinks = document.querySelectorAll('.drop-menu a');
 
+window.onload = () => {
+	document.body.classList.add('loaded');
+}
+
 menuBtn.onclick = () => {
 	menuIcon.classList.toggle('active');
 	menuBtn.classList.toggle('active');
