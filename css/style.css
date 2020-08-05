@@ -296,7 +296,10 @@ main section{
 }
 
 .map-block .icon-to-text{
-  margin: 20px auto 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .map-block .text{

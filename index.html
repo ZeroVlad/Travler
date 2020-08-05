@@ -6,6 +6,7 @@
 	<link rel="icon" href="img/Logo.png" type="image/png" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://kit.fontawesome.com/b2b04ec85a.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -96,16 +97,18 @@
 		</section>
 		<section class="map-block">
 			<div class="conteiner">
-				<div class="title">
+				<div class="title wow fadeInUp">
 					<div>Anywhere, anytime, where here to help.</div>
 					<div class="sub-title">And we mean that.</div>
 				</div>
-				<div class="map">
+				<div class="map wow fadeInLeft">
 					<img src="img/background/Map.png">
 				</div>
-				<img src="img/background/icon_in_map-block.png" class="icon-to-text">
+				<div class="icon-to-text">
+					<img class="wow fadeInRight" src="img/background/icon_in_map-block.png">
+				</div>
 				<div class="text">
-					<div class="save-time text-item">
+					<div class="save-time text-item wow fadeInLeft">
 						<div class="text-title">Save Time</div>
 						<p>
 							Lets throw a trackie dacks also it'll be gutta. You little ripper avos flamin lets throw a lizard drinking. 
@@ -127,7 +130,7 @@
 							Built like a old fella no dramas grab us a ten clicks away.
 						</p>
 					</div>
-					<div class="design-features text-item">
+					<div class="design-features text-item wow fadeInRight">
 						<div class="text-title">Design Features</div>
 						<p>
 							Built like a old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. 
@@ -145,7 +148,7 @@
 			<img src="img/background/Screen.png" class="screen">
 		</section>
 		<section class="team conteiner">
-			<div class="title-block">
+			<div class="title-block wow fadeInUp">
 				<img src="img/background/title_line.png">
 				<div class="title">
 					<div>A humble Team we are</div>
@@ -153,7 +156,7 @@
 				</div>
 				<img src="img/background/title_line.png">
 			</div>
-			<div class="team-list">
+			<div class="team-list wow fadeInUp">
 				<div class="team-list-item">
 					<a href="" class="twitter">
 						<img src="img/photo/Josh_Jansen.png">
@@ -185,7 +188,7 @@
 			</div>
 		</section>
 		<article class="conteiner">
-			<div class="article-item">
+			<div class="article-item wow fadeInLeft">
 				<button class="add">+</button>
 				<div class="article-head">Winning Design Awards</div>
 				<div class="article-description">
@@ -201,7 +204,7 @@
 					Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.
 				</div>
 			</div>
-			<div class="article-item">
+			<div class="article-item wow fadeInRight">
 				<button class="add">+</button>
 				<div class="article-head">Badass Features</div>
 				<div class="article-description">
@@ -216,7 +219,7 @@
 					Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.
 				</div>
 			</div>
-			<div class="article-item full-col">
+			<div class="article-item full-col wow fadeInUp">
 				<div class="article-head">A full col text box sits nicely like this</div>
 				<div class="article-description">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. 
@@ -304,6 +307,9 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script type="text/javascript" src="js/slider.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+  	new WOW().init();
+  </script>
 </body>
 </html>
