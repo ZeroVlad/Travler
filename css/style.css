@@ -382,8 +382,7 @@ nav{
   transition-duration: .4s;
 
   border-bottom: 5px solid #8038c2;
-  background-image: url(../img/background/nav-background.png);
-  background-size: cover;
+  background: linear-gradient(to top, #e5e5e5, #fff);
 
   justify-content: center;
   align-items: center;
@@ -434,7 +433,7 @@ main section{
   height: 540px;
 
   border-bottom: 1px solid #fff;
-  background-image: url(../img/background/slider-background.png);
+  background-image: url(../img/background/slider-background.jpg);
   background-size: cover;
 }
 
