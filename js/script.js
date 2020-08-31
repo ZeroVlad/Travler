@@ -1,3 +1,4 @@
+//Main script
 const menuBtn = document.querySelector('.menu-btn');
 const menuIcon = document.querySelector('.menu-icon');
 const menu = document.querySelector('.drop-menu');
@@ -33,3 +34,18 @@ for (let index = 0; index < menuLinks.length; index++) {
 		}
 	});
 }
+
+//slider script
+$(document).ready(function() {
+  $('.slider').slick({
+    speed: 1000,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+    pauseOnDotsHover: false
+  });
+});
+
+// wow animation initialization
+new WOW().init();
