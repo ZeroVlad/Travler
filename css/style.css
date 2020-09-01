@@ -337,9 +337,7 @@ header{
 /*---------------------
 --nav-conteiner
 ---------------------*/
-nav{
-  position: relative;
-
+.nav{
   display: flex;
 
   align-items: center;
@@ -347,6 +345,8 @@ nav{
 
 .nav-item{
   position: relative;
+
+  display: block;
 
   height: 90px;
 
